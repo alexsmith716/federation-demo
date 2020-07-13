@@ -7,13 +7,14 @@
     "start-service-reviews": "nodemon services/reviews/index.js",
     "start-service-products": "nodemon services/products/index.js",
     "start-service-inventory": "nodemon services/inventory/index.js",
+    "start-service-restDataSource": "nodemon services/restDataSource/index.js",
     "start-services": "concurrently \"npm:start-service-*\"",
     "postinstall": "lerna bootstrap"
   },
   "devDependencies": {
+    "concurrently": "latest",
     "lerna": "latest",
-    "nodemon": "latest",
-    "concurrently": "latest"
+    "nodemon": "latest"
   },
   "dependencies": {
     "@apollo/gateway": "latest",
