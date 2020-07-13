@@ -1,0 +1,12 @@
+{
+	"name": "restDataSource",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"dependencies": {
+		"@apollo/federation": "latest",
+		"apollo-datasource-rest": "latest",
+		"apollo-server": "latest",
+		"graphql": "latest"
+	}
+}
